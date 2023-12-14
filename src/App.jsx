@@ -7,9 +7,9 @@ function App() {
   const [visible, setVisible] = useState(true);
   const [text, setText] = useState("Hello");
 
-  // useEffect(()=>{
-  //   console.log('useEffect is working')
-  // },[todos])
+  useEffect(()=>{
+    console.log('useEffect is working')
+  },[todos])
 
   // https://www.codementor.io/@damianpereira/how-to-use-clearinterval-inside-react-s-useeffect-and-why-it-is-important-1si7mztjlk
   useEffect(() => {
